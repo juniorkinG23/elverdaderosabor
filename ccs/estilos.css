@@ -1,0 +1,212 @@
+ *{ 
+   margin: 0;
+   padding: 0;
+ }
+
+
+
+ body {
+    background: #439345;
+    padding: 20px;
+ }
+/*Cabecera*/
+ Header {
+ 	max-width: 1000px ;
+ 	min-height: 130px;
+ 	background: #ccc;
+ 	margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    background: #ffffff;/*Old Browesrs*/
+    background: -moz-linear-gradiet(top, #ffffff 3%, #ededed 13%, # cccccc 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 3%,#ededed 13% #cccccc 100%);
+    background: linear-gradient(top bottom, #ffffff 3%,#ededed 13%,#cccccc 100%);
+    filter: progid:DXImagetrasform.microsoft.gradent(Stratcolorstr='#ffffff', endcolorstr='#cccccc',gradietTyper=0) ;
+       
+
+}
+#logo {
+   animation: 1s entrada 1;
+
+
+
+
+
+}
+
+
+/*Menu Horizantal*/
+#menu-h{
+   max-width: 1000px;
+   min-height: 50px;
+   background: #000;
+   margin: 0 auto;
+}
+
+#menu-h ul {
+
+   list-style: none;
+   display: flex;
+   justify-content: center;
+}
+
+#menu-h a {
+   color: #fff;
+   display: block;
+   padding: 20px;
+   text-decoration: 'none;';
+   background: #000;
+   font-family: cursive;
+   font-size: 18px ;
+
+}
+#menu-h a:hover{
+   background: #069;
+}
+
+#menu-h ul ul {
+   display: none;
+   position: absolute;
+}
+#menu-h ul li:hover ul {
+   display: block;
+}
+
+
+
+/*Menu Horizantal*/
+
+ }
+/*cuerpo*/
+ #banner{
+ 	max-width: 1000px;
+ 	min-height: 250px;
+ 	background: #fff;
+ 	margin: 0 auto;
+/*cuerpo*/
+ }
+ #contenedor{
+ 	max-width: 1000px;
+ 	min-height: 700px;
+ 	background: #fff;
+ 	margin: 0 auto;
+
+ }
+
+/*menu vertical*/
+ #menu-v {
+ 	width: 300px;
+ 	min-height: 700px;
+ 	background: #ccc;
+ 	float: left;
+
+ }
+
+#menu-v ul{
+
+   list-style: none;
+   padding: 20px;
+
+}
+#menu-v a {
+   display: block;
+   color: #fff;
+ 
+   padding: 10px;
+   text-decoration: none;
+   margin-bottom:8px ;
+   border-radius: 5px;
+   font-family: arial;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cc0000+0,cc0000+100;Red+Flat */
+background: #cc0000; /* Old browsers */
+background: -moz-linear-gradient(top,  #cc0000 0%, #cc0000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #cc0000 0%,#cc0000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #cc0000 0%,#cc0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=0 ); /* IE6-9 */
+
+
+}
+#menu-v a:hover {
+   background:#069 ;
+}
+#menu-v a:hover img{
+   animation: 1s rotacion 1;
+
+
+} 
+
+
+/*menu vertical*/
+
+
+
+/*Contenido*/
+
+ #contenido{
+ 	width: 700px;
+ 	min-height: 700px;
+ 	background: #fff;
+ 	float: right;
+   padding: 15px;
+   box-sizing: border-box;
+ }
+
+ #contenido h2 {
+   text-align: center;
+   margin-bottom: 30px;
+
+ }
+
+ #contenido p {
+
+   margin-bottom: 10px;
+   font-family: cursive;
+   tont font-size: 18px;
+   text-align: justify;
+
+ }
+ .img-izq {
+
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   width: 150;
+   border: 1px solid #333;
+   padding: 5px;
+ }
+
+
+/*contenido*/
+
+
+
+
+/*pie de pagina*/
+ footer {
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: aial;
+    font-size:18px ;
+ }
+ /*pie de pagina*/
+
+ @keyframes entrada{
+   0% {
+
+         transform:translateY(-200px);
+   }
+
+ }
+
+ @keyframes rotacion {
+   0%{
+      transform: rotate(270deg);
+
+   }
+
+ }
